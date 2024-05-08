@@ -1,7 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
+
+func myFunction(fname string) {
+	fmt.Printf("%v Doe", fname)
+}
 
 func main() {
-	fmt.Print("Hell World")
+	myFunction("John")
 }
